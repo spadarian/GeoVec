@@ -18,7 +18,7 @@ The results of the interpolation are quite impressive. Those word embeddings are
 
 ## Usage
 
-The word embeddings are stored in the [Open Science Framework](https://osf.io/) repository at [https://www.doi.org/10.17605/OSF.IO/4UYEQ]().
+The word embeddings are stored in the [Open Science Framework](https://osf.io/) repository at [https://www.doi.org/10.17605/OSF.IO/4UYEQ](https://www.doi.org/10.17605/OSF.IO/4UYEQ).
 
 The [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) file has two datasets. The word embeddings are contained in `vectors`. The embeddings were cast to `float32` in order to reduce the size of the files. As far as we know, that should not be a problem for most applications. If you need a `float64` copy, let us know. The dictionary of words used is contained in `dct`. The python dictionary was converted to JSON and then encoded to _utf-8_ before storing it in `dct`.
 
@@ -49,13 +49,13 @@ new_model = load_geovec('geovec_300d_v1.h5')
 
 ## Open-access article
 
-The open-access article has been accepted and it is in-press at the moment. You can visit the journal at:
+The open-access article has been accepted. You can visit the journal at:
 
-https://doi.org/10.5194/soil-2018-44
+https://www.soil-journal.net/5/177/2019/
 
 or get a copy directly from:
 
-[https://www.soil-discuss.net/soil-2018-44/soil-2018-44.pdf ![pdf_ico](https://upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif)](https://www.soil-discuss.net/soil-2018-44/soil-2018-44.pdf)
+[https://www.soil-journal.net/5/177/2019/soil-5-177-2019.pdf ![pdf_ico](https://upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif)](https://www.soil-discuss.net/soil-2018-44/soil-2018-44.pdf)
 
 ## How to cite this work?
 
@@ -74,15 +74,15 @@ or get a copy directly from:
 
 ### Article
 
-The article is in press, so the final reference is not available yet. To cite the discussion article use:
 ```
-@misc{padarian2019word,
-  title={Word embeddings for application in geosciences: development, evaluation and examples of soil-related concepts},
-  url={https://doi.org/10.5194/soil-2018-44}
-  DOI={10.5194/soil-2018-44},
-  publisher={OSF},
-  author={Padarian, José and Fuentes, Ignacio},
+@article{padarian2019word,
+  title={Word embeddings for application in geosciences: development, evaluation, and examples of soil-related concepts},
+  author={Padarian, Jos{\'e} and Fuentes, Ignacio},
+  journal={Soil},
+  volume={5},
+  number={2},
+  pages={177--187},
   year={2019},
-  journal={SOIL Discuss}
+  publisher={Copernicus GmbH}
 }
 ```
