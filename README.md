@@ -6,7 +6,7 @@ This is the repository for the article "Word embeddings for application in geosc
 
 In this article we explore the use of word embeddings for geosciences. We trained a GloVe model using around 280,000 documents (mostly published scientific articles) in order to obtain domain-specific embeddings.
 
-Reproducing the classic example that you can find online, bellow you can see two examples of relationships captured by the model. On the left, the relationship between soil particle fraction sizes and rocks. On the right, the relationship between rocks and rock types.
+Reproducing the classic example that you can find online, below you can see two examples of relationships captured by the model. On the left, the relationship between soil particle fraction sizes and rocks. On the right, the relationship between rocks and rock types.
 
 ![GeoVec embedding analogies](assets/imgs/analogy.png)
 
